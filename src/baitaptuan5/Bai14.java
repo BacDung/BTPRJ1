@@ -14,7 +14,7 @@ public class Bai14 {
 		for(int i = 1; i <= n; i++) {
 			sum = sum + (float)1/giaithua(i);
 		}
-		System.out.print(sum);
+		System.out.print("S(" + n + ") = " + sum);
 		System.out.println("\nNguyen Van Dung 20183900");
 	}
 }

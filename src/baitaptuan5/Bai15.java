@@ -9,7 +9,7 @@ public class Bai15 {
 			p = p + Bai14.giaithua(i);
 			sum = sum + (float)1/p;
 		}
-		System.out.print(sum);
+		System.out.print("S(" + n + ") = " + sum);
 		System.out.println("\nNguyen Van Dung 20183900");
 	}
 

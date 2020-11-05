@@ -9,7 +9,7 @@ public class Bai16 {
 	}
 	public static void main(String[] args) {
 		int n = 20;
-		System.out.println(Fibonaxi(n));
+		System.out.println("F(" + n + ") = " + Fibonaxi(n));
 		System.out.println("Nguyen Van Dung 20183900");
 	}
 

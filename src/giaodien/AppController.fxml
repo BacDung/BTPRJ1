@@ -8,22 +8,22 @@
 
 <AnchorPane prefHeight="463.0" prefWidth="776.0" style="-fx-background-color: #ffe6ff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="giaodien.MainController">
    <children>
-      <Button fx:id="Tuan1" layoutX="99.0" layoutY="185.0" mnemonicParsing="false" onAction="#Scene" prefHeight="78.0" prefWidth="264.0" style="-fx-background-color: #ffad33;" text="A.  Các bài tập java cơ bản" textAlignment="CENTER" textFill="#000cf5" wrapText="true">
+      <Button fx:id="Tuan1" layoutX="99.0" layoutY="185.0" mnemonicParsing="false" onAction="#Scene1" prefHeight="78.0" prefWidth="264.0" style="-fx-background-color: #ffad33;" text="A.  Các bài tập java cơ bản" textAlignment="CENTER" textFill="#000cf5" wrapText="true">
          <font>
             <Font name="Calibri Bold Italic" size="22.0" />
          </font>
       </Button>
-      <Button layoutX="414.0" layoutY="185.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="264.0" style="-fx-background-color: #ffad33;" text="B. Bài tập về hàm và thu tục" textAlignment="CENTER" textFill="#000cf5" wrapText="true">
+      <Button fx:id="Tuan2" layoutX="414.0" layoutY="185.0" mnemonicParsing="false" onAction="#Scene2" prefHeight="78.0" prefWidth="264.0" style="-fx-background-color: #ffad33;" text="B. Bài tập về hàm và thu tục" textAlignment="CENTER" textFill="#000cf5" wrapText="true">
          <font>
             <Font name="Calibri Bold Italic" size="22.0" />
          </font>
       </Button>
-      <Button layoutX="99.0" layoutY="292.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="264.0" style="-fx-background-color: #ffad33;" text="C. Bài tập về mảng" textAlignment="CENTER" textFill="#000cf5" wrapText="true">
+      <Button fx:id="Tuan3" layoutX="99.0" layoutY="292.0" mnemonicParsing="false" onAction="#Scene3" prefHeight="70.0" prefWidth="264.0" style="-fx-background-color: #ffad33;" text="C. Bài tập về mảng" textAlignment="CENTER" textFill="#000cf5" wrapText="true">
          <font>
             <Font name="Calibri Bold Italic" size="22.0" />
          </font>
       </Button>
-      <Button layoutX="414.0" layoutY="292.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="264.0" style="-fx-background-color: #ffad33;" text="D. Bài tập về xâu" textAlignment="CENTER" textFill="#000cf5" wrapText="true">
+      <Button fx:id="Tuan4" layoutX="414.0" layoutY="292.0" mnemonicParsing="false" onAction="#Scene4" prefHeight="70.0" prefWidth="264.0" style="-fx-background-color: #ffad33;" text="D. Bài tập về xâu" textAlignment="CENTER" textFill="#000cf5" wrapText="true">
          <font>
             <Font name="Calibri Bold Italic" size="22.0" />
          </font>
@@ -38,5 +38,10 @@
             <Font name="Calibri Bold Italic" size="25.0" />
          </font>
       </Label>
+      <Button fx:id="Quit" layoutX="664.0" layoutY="391.0" mnemonicParsing="false" onAction="#Quit" prefHeight="34.0" prefWidth="83.0" style="-fx-background-color: #ff3333;" text="Quit" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold Italic" size="18.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>

@@ -9,8 +9,8 @@ public class Bai13 {
 			a = a + i;
 			b = b + 1 / a;
 		}
-		System.out.print(b);
+		System.out.print("S(" + n + ") = " + b);
 		System.out.println("\nNguyen Van Dung 20183900");
 	}
 
-}
+} 

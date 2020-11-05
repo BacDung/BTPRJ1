@@ -8,13 +8,13 @@ public class Debai {
 			"Bài 04: In ra màn hình các số <100 và chia hết cho 3,7" ,
 			"Bài 05: In ra màn hình các số nằm giữa 1000 và 2000 đồng thời chia hết cho 3,5,7" ,
 			"Bài 06: In ra màn hình 5 số hoàn hảo đầu tiên (Số hoàn hảo là số có tổng bằng các ước số của mình kể cả 1" , 
-			"Bài 07: Trong các số tự nhiên <=100 hãy đếm xem có bao nhiêu số Chia hết cho 5" +  
+			"Bài 07: Trong các số tự nhiên <=100 hãy đếm xem có bao nhiêu số Chia hết cho 5" ,  
 			"Bài 08: Cho số tự nhiên N bất kỳ (đã gán trước đó), tìm và in ra ước số nguyên tố nhỏ nhất của N",
 			"Bài 09: Cho số tự nhiên N>1 bất kỳ (đã gán trước đó). In ra khai triển thành tích các số nguyên tố tính từ nhỏ đến lớn",
 			"Bài 10: Cho trước số tự nhiên N bất kỳ (đã gán trước đó). In ra màn hình tất cả các ước số nguyên tố khác nhau của N",
 			"Bài 11: Viết chương trình tráo đổi ngẫu nhiên vị trí một dãy số cho trước " ,
 			"Bài 12. Viết chương trình nhập chiều cao h từ bàn phím, sau đó hiển thị các tam giác hình sao có chiều cao h"};
-	public static String[] Debai2 = {
+	public static String[] Debai2 = {  
 			"Bài 01: Cho số tự nhiên N bất kỳ\r\n" +
 			"Tính tổng S=1+1/(1+2) + 1/(1+2+3) +…+ 1/(1+2+3+..+N)\r\n" ,
 			"Bài 02: Cho số tự nhiên N bất kỳ, tính tổng\r\n" +

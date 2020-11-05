@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="476.0" prefWidth="759.0" style="-fx-background-color: #ffe6ff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="giaodien.ControllerTuan2">
+   <children>
+      <Button fx:id="Show1" layoutX="178.0" layoutY="226.0" mnemonicParsing="false" onAction="#Showex1" prefHeight="40.0" prefWidth="99.0" style="-fx-background-color: #ffad33;" text="Bài 1" textFill="#000cf5cf" wrapText="true">
+         <font>
+            <Font name="Calibri Bold Italic" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="Show2" layoutX="504.0" layoutY="226.0" mnemonicParsing="false" onAction="#Showex2" prefHeight="40.0" prefWidth="99.0" style="-fx-background-color: #ffad33;" text="Bài 2" textFill="#000cf5cf" wrapText="true">
+         <font>
+            <Font name="Calibri Bold Italic" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="Show3" layoutX="178.0" layoutY="331.0" mnemonicParsing="false" onAction="#Showex3" prefHeight="40.0" prefWidth="99.0" style="-fx-background-color: #ffad33;" text="Bài 3" textFill="#000cf5cf" wrapText="true">
+         <font>
+            <Font name="Calibri Bold Italic" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="Show4" layoutX="504.0" layoutY="320.0" mnemonicParsing="false" onAction="#Showex4" prefHeight="40.0" prefWidth="99.0" style="-fx-background-color: #ffad33;" text="Bài 4" textFill="#000cf5cf" wrapText="true">
+         <font>
+            <Font name="Calibri Bold Italic" size="21.0" />
+         </font>
+      </Button>
+      <Button fx:id="Back" layoutX="690.0" mnemonicParsing="false" onAction="#Back" opacity="0.94" prefHeight="26.0" prefWidth="69.0" style="-fx-background-color: #ff3333;" text="Back" textFill="#fffffff5">
+         <font>
+            <Font name="Calibri Bold Italic" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="14.0" layoutY="15.0" prefHeight="34.0" prefWidth="289.0" text="B. Bài tập về hàm và thủ tục" textFill="#000cf5">
+         <font>
+            <Font name="Calibri Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="lb1" layoutX="102.0" layoutY="67.0" prefHeight="117.0" prefWidth="576.0" textAlignment="CENTER" textFill="#000cf5" wrapText="true">
+         <font>
+            <Font name="Calibri Bold Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
